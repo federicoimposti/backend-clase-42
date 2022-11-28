@@ -5,7 +5,8 @@ const { getProducts, saveProducts } = require('../controllers/products.js');
 
 productsRouter.get("/", async (req, res) => {
   const response = await getProducts();
-  res.render('pages/productForm', { products: response });
+  res.status(200).json(response);
+  // res.render('pages/productForm', { products: response });
 });
 
 productsRouter.post("/", (req, res) => {

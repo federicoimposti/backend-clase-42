@@ -114,3 +114,8 @@
 {"level":"warn","message":"Ruta '/favicon.ico' Inexistente - Método 'GET'"}
 {"level":"warn","message":"Ruta '/favicon.ico' Inexistente - Método 'GET'"}
 {"level":"warn","message":"Ruta '/favicon.ico' Inexistente - Método 'GET'"}
+{"level":"warn","message":"Ruta '/api/productos' Inexistente - Método 'GET'"}
+{"level":"warn","message":"Ruta '/chat' Inexistente - Método 'GET'"}
+{"level":"warn","message":"Ruta '/messages' Inexistente - Método 'GET'"}
+{"level":"warn","message":"Ruta '/message' Inexistente - Método 'GET'"}
+{"level":"warn","message":"Ruta '/message' Inexistente - Método 'GET'"}

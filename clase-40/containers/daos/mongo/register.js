@@ -1,8 +1,8 @@
-const MongoContainer = require('../mongo');
 const bcrypt = require('bcrypt');
-const User = require('../../models/User');
+const User = require('../../../models/User');
+const MongoContainer = require('../../mongo');
 
-class UserContainer extends MongoContainer {
+class UserContainerMongo extends MongoContainer {
     constructor () {
       super(User) 
     }
@@ -25,4 +25,4 @@ class UserContainer extends MongoContainer {
     }
 }
 
-module.exports = { UserContainer };
+module.exports = { UserContainerMongo };
