@@ -12,4 +12,15 @@ const saveProductsService = async (obj) => {
     return products;
 }
 
-module.exports = { getProductsService, saveProductsService }
+const deleteProductService = async (obj) => {
+    const products = await productsDao.deleteById(obj);
+    return products;
+};
+
+const updateProductService = async (id, newData) => {
+    const products = await productsDao.update(id, newData);
+    return products;
+};
+
+
+module.exports = { getProductsService, saveProductsService, deleteProductService, updateProductService }

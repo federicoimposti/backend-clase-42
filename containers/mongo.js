@@ -27,4 +27,29 @@ module.exports = class MongoContainer {
             throw new Error('Ocurrió un error al guardar el elemento.', err);
         }
     }
+
+    async deleteById(id) {
+        try {
+            const item = await this.schema.findOneAndDelete({ _id: id });
+
+            if (!item) {
+                return;
+            }
+
+            return item;
+        } catch (err) {
+            logger.error(`Error: ${err}`);
+            throw new Error('Ocurrió un error eliminando el elemento.', err);
+        }
+    }
+
+    async update(id, newData) {
+        try {
+            const item = await this.schema.findOneAndUpdate({ _id: id }, newData);
+            return item;
+        } catch (err) {
+            logger.error(`Error: ${err}`);
+            throw new Error ('Ocurrió un error actualizando el elemento.', err);
+        }
+    };
 }

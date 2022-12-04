@@ -3,7 +3,7 @@ const logger = require('../logs/logger');
 const Item = require('../models/Products.js');
 
 require('../db/connection.js');
-const { getProductsService, saveProductsService } = require('../services/products.js');
+const { getProductsService, saveProductsService, deleteProductService, updateProductService } = require('../services/products.js');
 
 const error = { error: 'Producto no encontrado' };
 
@@ -14,6 +14,16 @@ const getProducts = async () => {
 
 const saveProducts = async (obj) => {
     const products = await saveProductsService(obj);
+    return products;
+};
+
+const deleteProduct = async (obj) => {
+    const products = await deleteProductService(obj);
+    return products;
+};
+
+const updateProduct = async (id, newData) => {
+    const products = await updateProductService(id, newData);
     return products;
 };
 
@@ -124,4 +134,4 @@ class productsController {
 }
 
 
-module.exports = { productsController, getProducts, saveProducts }
+module.exports = { productsController, getProducts, saveProducts, deleteProduct, updateProduct }
