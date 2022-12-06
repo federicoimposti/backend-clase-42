@@ -13,7 +13,7 @@ const { ProductsContainerMongo } = require('./mongo/products');
 const { ChatContainerMongo } = require('./mongo/chat');
 const { UserContainerMongo } = require('./mongo/register');
 
-const PERS = argv.pers
+const PERS = argv.pers || 'mongodb';
 
 let instance = null;
 

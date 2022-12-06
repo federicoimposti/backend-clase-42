@@ -157,3 +157,14 @@
 {"level":"warn","message":"Ruta '/' Inexistente - Método 'DELETE'"}
 {"level":"error","message":"Error: CastError: Cast to ObjectId failed for value \"638\" (type number) at path \"_id\" for model \"products\""}
 {"level":"error","message":"Error: CastError: Cast to ObjectId failed for value \"638\" (type number) at path \"_id\" for model \"products\""}
+{"level":"error","message":"Error: MongoNotConnectedError: Client must be connected before running operations"}
+{"level":"error","message":"Error: MongoNotConnectedError: Client must be connected before running operations"}
+{"level":"error","message":"Error: MongoNotConnectedError: Client must be connected before running operations"}
+{"level":"error","message":"Error: MongoNotConnectedError: Client must be connected before running operations"}
+{"level":"error","message":"Error: MongoNotConnectedError: Client must be connected before running operations"}
+{"level":"error","message":"Error: MongoNotConnectedError: Client must be connected before running operations"}
+{"level":"error","message":"Error: MongoNotConnectedError: Client must be connected before running operations"}
+{"level":"error","message":"Error: MongoNotConnectedError: Client must be connected before running operations"}
+{"level":"warn","message":"Ruta '/' Inexistente - Método 'POST'"}
+{"level":"warn","message":"Ruta '/' Inexistente - Método 'POST'"}
+{"level":"warn","message":"Ruta '/' Inexistente - Método 'POST'"}

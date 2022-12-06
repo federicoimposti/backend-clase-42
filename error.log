@@ -21,3 +21,11 @@
 {"level":"error","message":"Error: ReferenceError: item is not defined"}
 {"level":"error","message":"Error: CastError: Cast to ObjectId failed for value \"638\" (type number) at path \"_id\" for model \"products\""}
 {"level":"error","message":"Error: CastError: Cast to ObjectId failed for value \"638\" (type number) at path \"_id\" for model \"products\""}
+{"level":"error","message":"Error: MongoNotConnectedError: Client must be connected before running operations"}
+{"level":"error","message":"Error: MongoNotConnectedError: Client must be connected before running operations"}
+{"level":"error","message":"Error: MongoNotConnectedError: Client must be connected before running operations"}
+{"level":"error","message":"Error: MongoNotConnectedError: Client must be connected before running operations"}
+{"level":"error","message":"Error: MongoNotConnectedError: Client must be connected before running operations"}
+{"level":"error","message":"Error: MongoNotConnectedError: Client must be connected before running operations"}
+{"level":"error","message":"Error: MongoNotConnectedError: Client must be connected before running operations"}
+{"level":"error","message":"Error: MongoNotConnectedError: Client must be connected before running operations"}
